@@ -28,7 +28,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/primeng/resources/themes/saga-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/primeicons/primeicons.css",
+              "./node_modules/primeflex/primeflex.css"
             ],
             "scripts": []
           },
@@ -123,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "dynamicTabPrimeNg"
+    }
+  },
+  "defaultProject": "dynamicTabPrimeNg",
+  "cli": {
+    "analytics": "1b61bc27-9cc1-4b7b-bdf9-09122523bd85"
+  }
 }
