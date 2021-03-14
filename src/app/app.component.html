@@ -16,7 +16,8 @@
     <p-tabView (onClose)="removeTab($event)" [(activeIndex)]="selectedTab" [controlClose]="true">
       <p-tabPanel *ngFor="let tab of tabs" [closable]="tab.close" [header]="tab.title" [selected]="tab.active">
         <div>
-          <app-tab-content [tab]="tab"></app-tab-content>
+          <app-tab-content [tab]="tab">
+          </app-tab-content>
         </div>
       </p-tabPanel>
     </p-tabView>
